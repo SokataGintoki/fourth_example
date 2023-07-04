@@ -56,5 +56,6 @@ class product {
 const hyrocopter = new product ('Гирокоптер', 25000, 2500);
 console.log(hyrocopter.name);
 hyrocopter.yell();
-hyrocopter._name = 'Летающий дрон';
+hyrocopter.name = 'Летающий дрон';
 console.log(hyrocopter.name);
+hyrocopter.yell();
